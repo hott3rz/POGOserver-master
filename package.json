@@ -4,7 +4,7 @@
   "description": "",
   "repository": {
     "type": "git",
-    "url": "git://github.com/maierfelix/POGOServer.git"
+	"url": "git://github.com/hott3rz/POGOserver-master.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\"",
