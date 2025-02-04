@@ -33,7 +33,7 @@
     "pcrypt": "git+https://github.com/laverdet/pcrypt.git",
     "pogo-asset-downloader": "git+https://github.com/hott3rz/POGO-asset-downloader.git",
     "pokerare": "git+https://github.com/hott3rz/PokeRare.git",
-    "pokemongo-protobuf": "git+https://github.com/hott3rz/pokemon-go-protobuf.git",
+    "pkmngo-protobuf": "git+https://github.com/hott3rz/pkmngo-proto.git",
     "prompt": "^1.0.0",
     "s2-geometry": "^1.2.9",
     "url": "^0.11.0"
