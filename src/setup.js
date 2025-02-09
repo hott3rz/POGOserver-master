@@ -137,6 +137,7 @@ export function onFirstRun(resolve) {
       this.downloadAssets().then(resolve);
     });
   }).catch((e) => {
+	print("ERROR @Attempt to login");
     print(e, 31);
   });
 }
