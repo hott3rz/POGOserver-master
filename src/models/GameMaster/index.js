@@ -1,5 +1,5 @@
 import fs from "fs";
-import POGOProtos from "pokemongo-protobuf";
+import POGOProtos from "pkmngo-protobuf";
 
 import {
   idToPkmnBundleName
@@ -44,7 +44,7 @@ export default class GameMaster {
   parse() {
     let master = null;
     try {
-      let data = fs.readFileSync(CFG.DUMP_ASSET_PATH + "game_master");
+      let data = fs.readFileSync(CFG.DUMP_ASSET_PATH + "game_master.json");
       master = this.instance.parseProtobuf(data, "POGOProtos.Networking.Responses.DownloadItemTemplatesResponse");
     } catch (e) {
       print(e, 31);

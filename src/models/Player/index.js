@@ -1,4 +1,4 @@
-import POGOProtos from "pokemongo-protobuf";
+import POGOProtos from "pkmngo-protobuf";
 
 import Bag from "./Bag";
 import Info from "./Info";

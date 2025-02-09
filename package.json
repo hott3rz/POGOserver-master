@@ -4,7 +4,7 @@
   "description": "",
   "repository": {
     "type": "git",
-	"url": "git://github.com/hott3rz/POGOserver-master.git"
+    "url": "git://github.com/hott3rz/POGOserver-master.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\"",
@@ -27,16 +27,16 @@
     "fs-extra": "^0.30.0",
     "jwt-decode": "^2.1.0",
     "mysql": "^2.11.1",
-    "nodegit": "^0.16.0",
-    "node-pogo-signature": "git+https://github.com/hott3rz/node-pogo-signature.git",
+    "node-gyp": "^11.0.0",
     "node-pogo-protos": "git+https://github.com/hott3rz/pogo-prot.git",
+    "node-pogo-signature": "git+https://github.com/hott3rz/node-pogo-signature.git",
+    "nodegit": "^0.16.0",
     "pcrypt": "git+https://github.com/laverdet/pcrypt.git",
+    "pkmngo-protobuf": "git+https://github.com/hott3rz/pkmngo-proto.git",
     "pogo-asset-downloader": "git+https://github.com/hott3rz/POGO-asset-downloader.git",
     "pokerare": "git+https://github.com/hott3rz/PokeRare.git",
-    "pkmngo-protobuf": "git+https://github.com/hott3rz/pkmngo-proto.git",
     "prompt": "^1.0.0",
     "s2-geometry": "^1.2.9",
     "url": "^0.11.0"
-  },
-  "devDependencies": {}
+  }
 }

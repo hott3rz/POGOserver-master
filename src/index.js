@@ -2,7 +2,7 @@ import fs from "fs";
 import os from "os";
 import request from "request";
 import readline from "readline";
-import POGOProtos from "pokemongo-protobuf";
+import POGOProtos from "pkmngo-protobuf";
 
 import {
   _toCC,

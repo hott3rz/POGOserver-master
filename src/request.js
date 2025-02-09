@@ -1,7 +1,7 @@
 import fs from "fs";
 import url from "url";
 import jwtDecode from "jwt-decode";
-import POGOProtos from "pokemongo-protobuf";
+import POGOProtos from "pkmngo-protobuf";
 
 import print from "./print";
 import CFG from "../cfg";
